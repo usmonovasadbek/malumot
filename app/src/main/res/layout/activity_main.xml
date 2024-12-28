@@ -1,0 +1,61 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+]        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/rasm"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ism: Asadbek"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/surnameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Family: Usmonov "
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/ageText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yosh: 14"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/telegramLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telegram: t.me/@usmonov_o13"
+            android:textColor="#1DA1F2"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/instagramLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Instagram: https://www.instagram.com/macan__o12?igsh=ZGUzMzM3NWJiOQ=="
+            android:textColor="#E1306C"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>
